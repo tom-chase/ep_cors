@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "ep_cors",
+      "hooks":{
+        "expressConfigure" :  "ep_cors/expressConfigure"
+      }
+    }
+  ]
+}

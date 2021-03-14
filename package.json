@@ -1,0 +1,24 @@
+{
+  "name": "ep_cors",
+  "version": "0.0.1",
+  "author": {
+    "name": "tchase@asce.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cors": ">= 2.8.5"
+  },
+  "deprecated": false,
+  "description": "Provides simple CORS support to etherpad-lite.",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "homepage": "https://github.com/tom-chase/ep_cors",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tom-chase/ep_cors"
+  },
+  "peerDependencies": {
+    "ep_etherpad-lite": ">=1.8.6"
+  }
+}
